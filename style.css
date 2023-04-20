@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #ffe4ea;
+}
+.principal {
+  background-color: #ffc7d2;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 30px;
+  font-family: "Indie Flower", cursive;
+  color: #540413;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  gap: 15px;
+  color: #540413;
+}
+.inputsobrenome {
+  width: 180px;
+  height: 30px;
+}
+.inputname {
+  width: 180px;
+  height: 30px;
+}
+
+.email {
+  margin-left: 3em;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #540413;
+}
+.inputemail {
+  width: 180px;
+  height: 30px;
+}
+.aplication {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  font-family: "Indie Flower", cursive;
+  margin-top: 12px;
+  font-size: 20px;
+  color: #540413;
+  margin-top: 30px;
+}
+.technologia {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  color: #540413;
+  margin-top: 30px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  color: #540413;
+  margin-top: 30px;
+}
+.inputcomentario {
+  width: 500px;
+  height: 100px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.submit {
+  height: 40px;
+  width: 130px;
+  border: none;
+  background-color: #ffa7b8;
+  border-radius: 10px;
+  color: #540413;
+  font-family: "Rubik Pixels", cursive;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.submit:hover {
+  background-color: #540413;
+  color: white;
+  transition: 0.6s;
+}

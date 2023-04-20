@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulário DEV</title>
+  </head>
+  <body>
+    <div class="principal">
+      <header>
+        <h1>Cadastro de DEVs</h1>
+        <h3>Complete suas informações</h3>
+      </header>
+      <main>
+        <section class="name">
+          <div class="flex-box">
+            <label for="firstname">Nome</label>
+            <input
+              class="inputname"
+              id="firstname"
+              type="text"
+              name="firstname"
+            />
+            <label for="secondname">Sobrenome</label>
+            <input
+              class="inputsobrenome"
+              id="secondname"
+              type="text"
+              name="secondname"
+            />
+          </div>
+          <div class="email">
+            <label for="email">Email: </label>
+            <input
+              class="inputemail"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+        </section>
+        <section class="aplication">
+          <p>De qual lado da aplicação você desenvolve?</p>
+          <div class="desenvolve">
+            <input
+              type="radio"
+              id="Front-end"
+              name="aplicação"
+              value="Front-end"
+            />
+            <label for="Front-end">Front-end</label>
+            <input
+              type="radio"
+              id="Back-end"
+              name="aplicação"
+              value="Back-end"
+            />
+            <label for="Back-end">Back-end</label>
+            <input
+              type="radio"
+              id="FullStack"
+              name="aplicação"
+              value="FullStack"
+            />
+            <label for="FullStack">FullStack</label>
+          </div>
+        </section>
+        <section class="technologia">
+          <p>Selecione as tecnologias que utiliza:</p>
+          <div class="'escolhas'">
+            <input type="checkbox" id="HTML" name="HTML" value="HTML" />
+            <label for="HTML">Html</label>
+            <input type="checkbox" id="CSS" name="HTML" value="CSS" />
+            <label for="CSS">Css</label>
+            <input
+              type="checkbox"
+              id="JAVASCRIPT"
+              name="JAVASCRIPT"
+              value="CSS"
+            />
+            <label for="JAVASCRIPT">Javascript</label>
+            <input type="checkbox" id="PHP" name="PHP" value="PHP" />
+            <label for="PHP">Php</label>
+            <input type="checkbox" id="C#" name="C#" value="C#" />
+            <label for="C#">C#</label>
+            <input type="checkbox" id="PYTHON" name="PYTHON" value="PYTHON" />
+            <label for="PYTHON">Python</label>
+            <input type="checkbox" id="JAVA" name="JAVA" value="JAVA" />
+            <label for="JAVA">Java</label>
+          </div>
+        </section>
+        <section class="experience">
+          <p>Conte um pouco mais da sua experiência:</p>
+          <input
+            class="inputcomentario"
+            type="text"
+            id="comentário"
+            name="comentário"
+          />
+        </section>
+      </main>
+      <footer>
+        <input class="submit" type="submit" value="Concluído" />
+      </footer>
+    </div>
+  </body>
+</html>
